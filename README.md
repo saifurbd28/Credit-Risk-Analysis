@@ -62,7 +62,24 @@ Due to the high number of false positives, the low_risk sensitivity is 40%.
 
 ## Model-5: Balanced Random Forest Classifier
 ![Model-5](https://user-images.githubusercontent.com/100442163/176256569-8aae6daf-01ee-421e-8ea5-d472021c5518.png)
+The balanced accuracy score improved to about 79%.
+The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.
+Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
 
 ## Model-6: Easy Ensemble AdaBoost Classifier
 
 ![Model-6](https://user-images.githubusercontent.com/100442163/176256856-1ec9d491-d49b-450b-b1af-2a85b25de123.png)
+
+Now, the balanced accuracy score is high to about 93%.
+The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.
+Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion. 
+
+# Summary
+The performace of all these models to predict the high credit risk were poor. It is due to lower population size in this category. So, models were failed to get proper training. It suggest that population size is very important in proper model training. On the other hand, all models had a relatively better predictive score for low credit risk group. It is due to the trained data was mainly the data of low risk population. 
+
+
+
+
+
+
+
