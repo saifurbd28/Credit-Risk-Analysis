@@ -24,7 +24,9 @@ After evaluating the performance of these models I will make a recommendation on
 ![Model-1](https://user-images.githubusercontent.com/100442163/176254360-eb6c06e7-6d7d-4679-9364-d440a2f224b3.png)
 
 ## Model-2: SMOTE Oversampling
-![Model-2](https://user-images.githubusercontent.com/100442163/176254617-f951f22b-467d-4037-8f73-2085a888b73f.png)
+
+![Model-2](https://user-images.githubusercontent.com/100442163/176255320-a5ef5707-0027-48bb-83e6-53e1186ab401.png)
 
 ## Model-3: Cluster Centroids for Undersampling
-![Model-3](https://user-images.githubusercontent.com/100442163/176254964-78f080c7-efbe-48d0-8a99-71c22a7aac29.png)
+
+![Model-3](https://user-images.githubusercontent.com/100442163/176255328-fd426184-ccf6-4a14-aa58-19a2c0455f9d.png)
