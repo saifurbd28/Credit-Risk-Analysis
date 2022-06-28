@@ -18,7 +18,7 @@ After evaluating the performance of these models I will make a recommendation on
 
 # Results 
 
-## Deliverable 1: Use Resampling Models to Predict Credit Risk
+# Deliverable 1: Use Resampling Models to Predict Credit Risk
 
 ## Model-1: Naive Random Oversampling
 ![Model-1](https://user-images.githubusercontent.com/100442163/176254360-eb6c06e7-6d7d-4679-9364-d440a2f224b3.png)
@@ -30,3 +30,17 @@ After evaluating the performance of these models I will make a recommendation on
 ## Model-3: Cluster Centroids for Undersampling
 
 ![Model-3](https://user-images.githubusercontent.com/100442163/176255328-fd426184-ccf6-4a14-aa58-19a2c0455f9d.png)
+
+# Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
+
+## Model-4: Combination (Over and Under) Sampling using the SMOTEENN algorithm
+![Model-4](https://user-images.githubusercontent.com/100442163/176256056-13d53be2-c89c-459a-8734-8cfc3c103ced.png)
+
+# Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
+
+## Model-5: Balanced Random Forest Classifier
+![Model-5](https://user-images.githubusercontent.com/100442163/176256569-8aae6daf-01ee-421e-8ea5-d472021c5518.png)
+
+## Model-6: Easy Ensemble AdaBoost Classifier
+
+![Model-6](https://user-images.githubusercontent.com/100442163/176256856-1ec9d491-d49b-450b-b1af-2a85b25de123.png)
