@@ -20,21 +20,43 @@ After evaluating the performance of these models I will make a recommendation on
 
 # Deliverable 1: Use Resampling Models to Predict Credit Risk
 
-## Model-1: Naive Random Oversampling
+## Oversampling models
+
+### Model-1: Naive Random Oversampling
 ![Model-1](https://user-images.githubusercontent.com/100442163/176254360-eb6c06e7-6d7d-4679-9364-d440a2f224b3.png)
 
-## Model-2: SMOTE Oversampling
+The balanced accuracy score is 66%.
+The high_risk precision is very low (1% only) with 72% precision and 60% specificity which makes a F1 of 2% only.
+On the other hand, the low_risk precision is 100% with 60% precision and 72% specificity. It gives a F1 value of 75%.
+This high precision of the low_risk credit is due to the high number of the low_risk population. 
+
+
+### Model-2: SMOTE Oversampling
 
 ![Model-2](https://user-images.githubusercontent.com/100442163/176255320-a5ef5707-0027-48bb-83e6-53e1186ab401.png)
 
-## Model-3: Cluster Centroids for Undersampling
+A similar result can be observed here. The balanced accuracy score is 65.7%. Other scores are also similar. 
+
+## Undersampling model
+
+### Model-3: Cluster Centroids for Undersampling
 
 ![Model-3](https://user-images.githubusercontent.com/100442163/176255328-fd426184-ccf6-4a14-aa58-19a2c0455f9d.png)
 
+Here the balanced accuracy score is down to about 54%.
+The high_risk precision is still 1% only with 69% sensitivity which makes a F1 of 1%.
+Due to the high number of false positives, the low_risk sensitivity is only 40%. 
+
 # Deliverable 2: Use the SMOTEENN algorithm to Predict Credit Risk
+
+## Combination (Over and Under) Sampling
 
 ## Model-4: Combination (Over and Under) Sampling using the SMOTEENN algorithm
 ![Model-4](https://user-images.githubusercontent.com/100442163/176256056-13d53be2-c89c-459a-8734-8cfc3c103ced.png)
+
+The balanced accuracy score is about 54%.
+The high_risk precision is still 1% only with 69% sensitivity which makes a F1 of only 1%.
+Due to the high number of false positives, the low_risk sensitivity is 40%. 
 
 # Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk
 
